@@ -1,0 +1,29 @@
+# Build outputs
+**/bin/
+**/obj/
+artifacts/
+
+# Visual Studio / IDE user files
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.DotSettings.user
+
+# Test and coverage
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage.*
+
+# NuGet package artifacts
+*.nupkg
+*.snupkg
+packages/
+
+# Krypton runtime-generated outputs
+*-Devirtualized.*
+*-Devirtualized-report.txt
+*.tmp-rewrite.*
